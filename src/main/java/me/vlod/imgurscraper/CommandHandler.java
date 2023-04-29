@@ -159,7 +159,7 @@ public class CommandHandler {
 			
 			if (this.app.discordWebhook != null && downloadResult) {
 				this.app.discordWebhook.setAvatarURL(
-						"https://raw.githubusercontent.com/vlOd2/LightshotScraper/main/LightShotScraper.png");
+						"https://raw.githubusercontent.com/vlOd2/ImgurScraper/main/ImgurScraper.png");
 				this.app.discordWebhook.addEmbed(new DiscordEmbed(
     					String.format("New scrape! (Number %d)", i), 
     					String.format("I have scraped the following link and confirmed it's valid: %s", link), 
